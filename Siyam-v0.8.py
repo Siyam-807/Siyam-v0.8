@@ -35,7 +35,7 @@ except ImportError:
 	try:
 		import rich
 	except ImportError:
-		exit(' [×](pip install rich)')
+		
 from rich.table import Table as me
 from rich.console import Console as sol
 from bs4 import BeautifulSoup as sop
